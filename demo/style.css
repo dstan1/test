@@ -1,0 +1,80 @@
+html, body {
+	padding: 0;
+  background: #000;
+	color: #FFF;
+	text-align: center;
+	font-family: sans-serif;
+	max-width: 500px;
+	margin: auto;
+}
+h2 {
+	color: #33353c; 
+}
+/*
+video {
+	display: block;
+	background: black;
+  width: 100%;
+  height: calc(100vw / 16 * 9);
+  margin: auto;
+}
+@media (min-width: 500px) {
+	video {
+		height: calc(500px / 16 * 9)
+	}
+}
+*/
+.IIV::-webkit-media-controls-play-button,
+.IIV::-webkit-media-controls-start-playback-button {
+    opacity: 0;
+    pointer-events: none;
+    width: 5px;
+}
+figure {
+	width: 100%;
+}
+
+.fullscreen {
+	float: right;
+}
+.threejs-notice {
+
+}
+.threejs-notice a {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+.video-container {
+	margin-bottom: 100px;
+}
+.hideme {
+	opacity: 0.2;
+}
+.first-video {
+	opacity: 1;
+}
+video {
+	width: 100%;
+	max-width: 500px;
+}
+
+h2 {
+	margin: 1em 0;
+}
+p {
+	line-height: 25px;
+	font-size: 0.75em;
+	margin: 0 0 1em;
+}
+a {
+	color: #FFF;
+}
+code {
+	font-size: 1.2em;
+}
+h2 span {
+	display: block;
+	font-size: 12px;
+	font-weight: normal;
+}
