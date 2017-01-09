@@ -50,9 +50,11 @@ figure {
 }
 .hideme {
 	opacity: 0.2;
+	visibility: visible;
 }
 .first-video {
 	opacity: 1;
+	visibility: visible;
 }
 video {
 	width: 100%;
